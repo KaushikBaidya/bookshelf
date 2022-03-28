@@ -14,51 +14,51 @@ class Directory extends React.Component {
           title: 'ENGINEERING',
           imageUrl: 'https://bit.ly/3Nuugjq',
           id: 1,
-          linkUrl: 'shop/engineering',
+          linkUrl: 'engineering',
         },
         {
           title: 'LAW',
           imageUrl: 'https://bit.ly/3DfkHAk',
           id: 2,
-          linkUrl: 'shop/laws',
+          linkUrl: 'laws',
         },
         {
           title: 'BUSINESS',
           imageUrl: 'https://bit.ly/3wJwnKs',
           id: 3,
-          linkUrl: 'shop/comics',
+          linkUrl: 'comics',
         },
         {
           title: 'NOVEL',
           imageUrl: 'https://bit.ly/3NwAkbs',
           id: 4,
-          linkUrl: 'shop/novel',
+          linkUrl: 'novel',
         },
         {
           title: 'MYSTERY',
           imageUrl: 'https://bit.ly/3wFy6QZ',
           id: 5,
-          linkUrl: 'shop/mystery',
+          linkUrl: 'myst',
         },
         {
           title: 'COMICS & MANGA',
           imageUrl: 'https://bit.ly/3NoKavM',
           id: 6,
-          linkUrl: 'shop/comics',
+          linkUrl: 'comics',
         },
         {
           title: 'ADVENTURE',
           imageUrl: 'https://bit.ly/3qJLdNf',
           size: 'large',
           id: 7,
-          linkUrl: 'shop/adventure',
+          linkUrl: 'adventure',
         },
         {
           title: 'HISTORY',
           imageUrl: 'https://bit.ly/3wND6D0',
           size: 'large',
           id: 8,
-          linkUrl: 'shop/history',
+          linkUrl: 'history',
         },
       ],
     }
@@ -67,8 +67,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...sectionProps }) => (
+          <MenuItem key={id} {...sectionProps} />
         ))}
       </div>
     )
