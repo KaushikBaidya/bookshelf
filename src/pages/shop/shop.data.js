@@ -7,31 +7,31 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        imageUrl: 'https://bit.ly/3Nxa6W7',
         price: 25,
       },
       {
         id: 2,
         name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        imageUrl: 'https://bit.ly/36SLNB7',
         price: 18,
       },
       {
         id: 3,
         name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        imageUrl: 'https://bit.ly/35sqAxG',
         price: 35,
       },
       {
         id: 4,
         name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        imageUrl: 'https://bit.ly/3tPjkFi',
         price: 25,
       },
       {
         id: 5,
         name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        imageUrl: 'https://bit.ly/3uLB5Vw',
         price: 18,
       },
       {
@@ -68,25 +68,25 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        imageUrl: 'https://bit.ly/3ISklk4',
         price: 220,
       },
       {
         id: 2,
         name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        imageUrl: 'https://bit.ly/3wOX14E',
         price: 280,
       },
       {
         id: 3,
         name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        imageUrl: 'https://bit.ly/35o06xh',
         price: 110,
       },
       {
         id: 4,
         name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        imageUrl: 'https://bit.ly/35sEbVK',
         price: 160,
       },
       {
@@ -123,25 +123,28 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        imageUrl: 'https://bit.ly/3JVyjTJ',
         price: 125,
       },
       {
         id: 2,
         name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/bus-02.jpg?raw=true',
         price: 90,
       },
       {
         id: 3,
         name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/bus-03.jpg?raw=true',
         price: 90,
       },
       {
         id: 4,
         name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/bus-04.jpg?raw=true',
         price: 165,
       },
       {
@@ -160,25 +163,29 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        imageUrl:
+          'https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg',
         price: 25,
       },
       {
         id: 2,
         name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        imageUrl:
+          'https://kbimages1-a.akamaihd.net/b1e75ebc-3e99-421a-be6a-b7317a4f670f/1200/1200/False/one-hundred-years-of-solitude-3.jpg',
         price: 20,
       },
       {
         id: 3,
         name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        imageUrl:
+          'https://kbimages1-a.akamaihd.net/bf3700d5-2005-4dfa-90b2-6f6539407e63/1200/1200/False/brave-new-world-81.jpg',
         price: 80,
       },
       {
         id: 4,
         name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        imageUrl:
+          'https://c8.alamy.com/comp/RYHYBP/film-poster-a-passage-to-india-1984-RYHYBP.jpg',
         price: 80,
       },
       {
@@ -209,25 +216,28 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        imageUrl:
+          'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524596540l/36124936._SY475_.jpg',
         price: 325,
       },
       {
         id: 2,
         name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        imageUrl: 'https://m.media-amazon.com/images/I/41n3vgs+RIL.jpg',
         price: 20,
       },
       {
         id: 3,
         name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        imageUrl:
+          'https://images-na.ssl-images-amazon.com/images/I/71KyW7l1IcL.jpg',
         price: 25,
       },
       {
         id: 4,
         name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        imageUrl:
+          'https://img.buzzfeed.com/buzzfeed-static/static/2020-04/6/17/asset/003e4d892bb4/sub-buzz-1329-1586195709-9.jpg',
         price: 25,
       },
       {
@@ -252,25 +262,28 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        imageUrl:
+          'https://raw.githubusercontent.com/KaushikBaidya/acad.github.io/main/images/com-01.webp',
         price: 325,
       },
       {
         id: 2,
         name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/com-02.jpg?raw=true',
         price: 20,
       },
       {
         id: 3,
         name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        imageUrl: 'https://d1466nnw0ex81e.cloudfront.net/n_iv/600/991421.jpg',
         price: 25,
       },
       {
         id: 4,
         name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/com-04.jpg?raw=true',
         price: 25,
       },
       {
@@ -295,25 +308,29 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/adv01.jpg?raw=true',
         price: 325,
       },
       {
         id: 2,
         name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        imageUrl:
+          'https://kbimages1-a.akamaihd.net/8ad3bbf0-85b9-4335-a7aa-6a218c9bf08c/1200/1200/False/around-the-world-in-eighty-days-113.jpg',
         price: 20,
       },
       {
         id: 3,
         name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        imageUrl:
+          'https://www.brookingsregister.com/uploads/images/2020/09/0fdc4b122b59da4ff5270ba582cd8aab.jpg',
         price: 25,
       },
       {
         id: 4,
         name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        imageUrl:
+          'https://images.moviesanywhere.com/e793dae889a5e6e1b4ba23fe0675d59e/893675ad-e689-4c5c-87c1-ac1363cd3824.jpg',
         price: 25,
       },
       {
@@ -338,25 +355,29 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/hist-01.jpg?raw=true',
         price: 325,
       },
       {
         id: 2,
         name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/hist-02.jpg?raw=true',
         price: 20,
       },
       {
         id: 3,
         name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        imageUrl:
+          'https://raw.githubusercontent.com/KaushikBaidya/acad.github.io/main/images/hist-03.webp',
         price: 25,
       },
       {
         id: 4,
         name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        imageUrl:
+          'https://github.com/KaushikBaidya/acad.github.io/blob/main/images/hist-04.jpg?raw=true',
         price: 25,
       },
       {
