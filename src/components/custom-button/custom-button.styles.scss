@@ -6,14 +6,16 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: #e4e141;
+  background-color: #f7f7f4;
   color: rgb(36, 32, 32);
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
   &:hover {
-    background-color: #f87408;
+    background-color: #838e94;
     color: #f8f7f7;
   }
 
@@ -22,6 +24,18 @@
     color: #f8f7f7;
     &:hover {
       background-color: #4671c2;
+    }
+  }
+
+  &.inverted {
+    background-color: #46494b;
+    color: white;
+    border: none;
+
+    &:hover {
+      background-color: #f7f7f4;
+      color: black;
+      border: 1px solid black;
     }
   }
 }
