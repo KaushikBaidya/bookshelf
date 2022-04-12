@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  engineering: {
     id: 1,
     title: 'Engineering',
     routeName: 'engineering',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  laws: {
     id: 2,
     title: 'LAWS',
     routeName: 'laws',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  business: {
     id: 3,
     title: 'Business',
     routeName: 'business',
@@ -155,7 +155,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  novel: {
     id: 4,
     title: 'Novel',
     routeName: 'novel',
@@ -208,7 +208,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  mystery: {
     id: 5,
     title: 'Mystery',
     routeName: 'mystery',
@@ -254,7 +254,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  Comics: {
     id: 6,
     title: 'Comics & Manga',
     routeName: 'Comics',
@@ -300,7 +300,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  adventure: {
     id: 7,
     title: 'Adventure',
     routeName: 'adventure',
@@ -347,7 +347,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  history: {
     id: 8,
     title: 'History',
     routeName: 'history',
@@ -394,6 +394,6 @@ const SHOP_DATA = [
       },
     ],
   },
-]
+}
 
 export default SHOP_DATA
